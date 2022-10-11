@@ -1,13 +1,83 @@
-@@include('header.htm')
+<!DOCTYPE html>
 
-@@include('blocks/navigation.htm')
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Berk Mervan Erenci</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Creative Portfolio Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Themefisher Kross Template v1.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon " type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon " type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Favicon -->
+  <!-- <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" /> -->
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head> 
+<body style="scroll-behavior: smooth ;">
+  
+
+<header class="navigation fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand font-tertiary h3" href="index.html"><img src="images/logo.png" alt="Myself" style="height:70px "></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#parallax">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-me">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
 
 <!-- hero area -->
 <section class="hero-area bg-primary" id="parallax">
   <div class="container">
     <div class="row">
       <div class="col-lg-11 mx-auto">
-        <h1 class="text-white font-tertiary">Hi! I’m <br> Christoher <br> UX designer</h1>
+        <h1 class="text-white font-tertiary">Hi! I’m <br> Berk Mervan Erenci <br> Blockchain Developer</h1>
       </div>
     </div>
   </div>
@@ -45,6 +115,7 @@
     <li class="mb-3"><a class="text-white" href="https://themefisher.com/"><i class="ti-dribbble"></i></a></li>
     <li class="mb-3"><a class="text-white" href="https://themefisher.com/"><i class="ti-twitter"></i></a></li>
   </ul>
+  <span  id="about-me"></span>
   <!-- /social icon -->
 </section>
 <!-- /hero area -->
@@ -54,11 +125,9 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto text-center">
-        <p class="font-secondary paragraph-lg text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-          in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-        <a href="about.html" class="btn btn-transparent">know more</a>
+        <a href="about.html" class="btn btn-transparent">About Me</a>
+        <p class="font-secondary paragraph-lg text-dark">Ambitious web developer with over 2 years of front end experience and passion for web3 technologies. Proficient with Solidity, CSS and JS Frameworks. Certified Developer at Near Protocol. Developed e-commerce platform using web3 technologies and smart contracts. Senior Law Student at Istanbul University. Built responsive websites for various law firms.</p>
+        
       </div>
     </div>
   </div>
@@ -66,7 +135,7 @@
 <!-- /about -->
 
 <!-- skills -->
-<section class="section">
+<section class="section" id="skills">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -78,7 +147,7 @@
             <div class="wave" data-progress="90%"></div>
           </div>
           <div class="card-footer bg-white">
-            <h4 class="card-title">Web Design (90%)</h4>
+            <h4 class="card-title">Solidity</h4>
           </div>
         </div>
       </div>
@@ -88,7 +157,7 @@
             <div class="wave" data-progress="60%"></div>
           </div>
           <div class="card-footer bg-white">
-            <h4 class="card-title">Logo Design (60%)</h4>
+            <h4 class="card-title">React.js</h4>
           </div>
         </div>
       </div>
@@ -98,7 +167,7 @@
             <div class="wave" data-progress="80%"></div>
           </div>
           <div class="card-footer bg-white">
-            <h4 class="card-title">After Effects (80%)</h4>
+            <h4 class="card-title">JavaScript</h4>
           </div>
         </div>
       </div>
@@ -108,8 +177,9 @@
             <div class="wave" data-progress="70%"></div>
           </div>
           <div class="card-footer bg-white">
-            <h4 class="card-title">Web App (70%)</h4>
+            <h4 class="card-title">Web3.js</h4>
           </div>
+          <span  id="experience"></span>
         </div>
       </div>
     </div>
@@ -122,28 +192,29 @@
   <div class="container">
     <div class="row justify-content-around">
       <div class="col-lg-12 text-center">
-        <h2 class="section-title">Experience</h2>
+        <h2 class="section-title">Professional Experience</h2>
       </div>
       <div class="col-lg-3 col-md-4 text-center">
         <img src="images/experience/icon-1.png" alt="icon">
-        <p class="mb-0">Jan 2007 - Feb 2009</p>
-        <h4>Junior UX Designer</h4>
-        <h6 class="text-light">WEBEX</h6>
+        <p class="mb-0">Jan 2021 - Present</p>
+        <h4>Web Developer</h4>
+        <h6 class="text-light">Freelance</h6>
       </div>
       <div class="col-lg-3 col-md-4 text-center">
         <img src="images/experience/icon-2.png" alt="icon">
-        <p class="mb-0">Mar 2009 - Aug 2014</p>
-        <h4>UX & UI Designer</h4>
-        <h6 class="text-light">AUGMEDIX</h6>
+        <p class="mb-0">Oct 2022 - Present</p>
+        <h4>University Ambassador</h4>
+        <h6 class="text-light">Kodluyoruz</h6>
       </div>
-      <div class="col-lg-3 col-md-4 text-center">
+      <!-- <div class="col-lg-3 col-md-4 text-center">
         <img src="images/experience/icon-3.png" alt="icon">
         <p class="mb-0">Sep 2014 - Present</p>
         <h4>Senior UI Designer</h4>
         <h6 class="text-light">THEMEFISHER</h6>
-      </div>
+      </div> -->
     </div>
   </div>
+  <span  id="education"></span>
 </section>
 <!-- ./experience -->
 
@@ -160,9 +231,9 @@
             <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
           </div>
           <div>
-            <p class="text-dark mb-1">2006</p>
-            <h4>Marters in UX Design</h4>
-            <p class="mb-0 text-light">Masassusets Institute of Technology</p>
+            <p class="text-dark mb-1">2018 - Present</p>
+            <h4>Faculty of Law</h4>
+            <p class="mb-0 text-light">Istanbul University</p>
           </div>
         </div>
       </div>
@@ -172,45 +243,26 @@
             <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
           </div>
           <div>
-            <p class="text-dark mb-1">2004</p>
-            <h4>Honours in Fine Arts</h4>
-            <p class="mb-0 text-light">Harvard University</p>
+            <p class="text-dark mb-1">March - May 2022</p>
+            <h4> Web3 Development Bootcamp </h4>
+            <p class="mb-0 text-light">Near Protocol & Patika.dev</p>
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 mb-80">
-        <div class="d-flex">
-          <div class="mr-lg-5 mr-3">
-            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
-          </div>
-          <div>
-            <p class="text-dark mb-1">2000</p>
-            <h4>Higher Secondary Certificat</h4>
-            <p class="mb-0 text-light">Cardiff School</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-6 mb-80">
-        <div class="d-flex">
-          <div class="mr-lg-5 mr-3">
-            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
-          </div>
-          <div>
-            <p class="text-dark mb-1">1998</p>
-            <h4>Secondary School Certificate</h4>
-            <p class="mb-0 text-light">Cardiff School</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+      
+      
   <!-- bg image -->
   <img class="img-fluid edu-bg-image w-100" src="images/backgrounds/education-bg.png" alt="bg-image">
+  <span id="projects" ></span> 
 </section>
 <!-- /education -->
 
+<span></span>
+<span></span>
 <!-- services -->
-<section class="section">
+
+
+<!-- <section class="section">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -248,28 +300,50 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
+
+
 <!-- /services -->
 
 <!-- portfolio -->
-<section class="section">
+<section class="section" id="projects">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h2 class="section-title">Portfolio</h2>
+        <h2 class="section-title">Projects</h2>
       </div>
     </div>
+
     <div class="row shuffle-wrapper">
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
-          <img src="images/portfolio/item-1.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <img src="images/portfolio/blox_project_img.png" alt="portfolio-image" class="img-fluid rounded w-100">
           <div class="hover-overlay">
             <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="#!">view project</a>
+              <a class="btn btn-light btn-sm" href="https://github.com/mervanerenci/BLOX-DecentralizedFileStorage">view project</a>
+            </div>
+          </div> 
+        </div>
+        <h4>BLOX! Decentralized Storage</h4>
+        <p class="text-dark">With rising technologies like IPFS and Blockchain, you can store your files in a decentralized network. With " BLOX! " you dont need to trust third parties to store your precious files . Besides that , you dont need to worry about the existence of your files, they will live in the BLOX! as long as you wish, and will be accessible from anywhere in the universe !</p>
+      </div>
+
+
+      <div class="col-lg-4 col-6 mb-4 shuffle-item">
+        <div class="position-relative rounded hover-wrapper">
+          <img src="images/portfolio/portfolio_project_img.png" alt="portfolio-image" class="img-fluid rounded w-100">
+          <div class="hover-overlay">
+            <div class="hover-content">
+              <a class="btn btn-light btn-sm" href="#">view project</a>
             </div>
           </div>
         </div>
+        <h4 class="pt-2">My Portfolio</h4>
+        <p class="text-dark ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit rem velit, qui ab voluptates, asperiores dignissimos fuga distinctio omnis assumenda nam!</p>
       </div>
+
+
+
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
           <img src="images/portfolio/item-2.png" alt="portfolio-image" class="img-fluid rounded w-100">
@@ -279,7 +353,10 @@
             </div>
           </div>
         </div>
+        <h4>Marketplace Web3</h4>
+        <p  class="text-dark pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae deleniti voluptates placeat numquam debitis dolores nisi iure, harum necessitatibus amet, non eos. Voluptatum rem, reprehenderit beatae itaque autem aut quod nulla molestiae temporibus ratione?</p>
       </div>
+
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
           <img src="images/portfolio/item-3.png" alt="portfolio-image" class="img-fluid rounded w-100">
@@ -289,7 +366,10 @@
             </div>
           </div>
         </div>
+        <h4>Kotlin Smart Home</h4>
+        <p  class="text-dark pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam molestiae voluptates itaque eveniet hic ratione qui culpa dolore enim, commodi repellendus, vitae consequuntur est quaerat reiciendis, accusantium sit quibusdam facere id tenetur? Consequuntur blanditiis dicta et quae labore nesciunt numquam. Sequi saepe ullam neque dicta quidem deserunt sapiente error. Doloremque cumque quidem quas consequuntur dolor nostrum reiciendis minus recusandae maxime officia neque consequatur, illo nobis dignissimos necessitatibus pariatur commodi expedita fugiat libero! Vero rem dicta inventore, adipisci illo commodi earum.</p>
       </div>
+
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
           <img src="images/portfolio/item-4.png" alt="portfolio-image" class="img-fluid rounded w-100">
@@ -299,7 +379,10 @@
             </div>
           </div>
         </div>
+        <h4>Crowdfund App on Ethereum</h4>
+        <p  class="text-dark pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quasi modi dignissimos officiis obcaecati hic, suscipit error dolor consequuntur iste, natus officia incidunt quae ut minima impedit dicta beatae, inventore eligendi corporis nam cum ipsum asperiores dolorem. Nihil dolores sint assumenda in velit, expedita voluptatum tenetur, optio ullam unde suscipit quasi earum similique tempora?</p>
       </div>
+
       <div class="col-lg-4 col-6 mb-4 shuffle-item">
         <div class="position-relative rounded hover-wrapper">
           <img src="images/portfolio/item-5.png" alt="portfolio-image" class="img-fluid rounded w-100">
@@ -309,75 +392,21 @@
             </div>
           </div>
         </div>
+        <h4>NFT Game</h4>
+        <p  class="text-dark pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae deleniti voluptates placeat numquam debitis dolores nisi iure, harum necessitatibus amet, non eos. Voluptatum rem, reprehenderit beatae itaque autem aut quod nulla molestiae temporibus ratione?</p>
       </div>
+
+      
+      
     </div>
   </div>
 </section>
 <!-- /portfolio -->
 
-<!-- testimonial -->
-<section class="section bg-primary position-relative testimonial-bg-shapes">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title text-white mb-5">Testimonials</h2>
-      </div>
-      <div class="col-lg-10 mx-auto testimonial-slider">
-        <!-- slider-item -->
-        <div class="text-center testimonial-content">
-          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
-          <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
-              ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-1.png"
-            alt="client-image">
-          <h4 class="text-white">Jesica Gomez</h4>
-          <h6 class="text-light mb-4">CEO, Funder</h6>
-        </div>
-        <!-- slider-item -->
-        <div class="text-center testimonial-content">
-          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
-          <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
-              ullamco
-              laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in
-            voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur.</p>
-          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-1.png"
-            alt="client-image">
-          <h4 class="text-white">Jesica Gomez</h4>
-          <h6 class="text-light mb-4">CEO, Funder</h6>
-        </div>
-        <!-- slider-item -->
-        <div class="text-center testimonial-content">
-          <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>
-          <p class="text-white mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation
-              ullamco
-              laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in
-            voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur.</p>
-          <img class="img-fluid rounded-circle mb-4 d-inline-block" src="images/testimonial/client-1.png"
-            alt="client-image">
-          <h4 class="text-white">Jesica Gomez</h4>
-          <h6 class="text-light mb-4">CEO, Funder</h6>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- bg shapes -->
-  <img src="images/backgrounds/map.png" alt="map" class="img-fluid bg-map">
-  <img src="images/illustrations/dots-group-v.png" alt="bg-shape" class="img-fluid bg-shape-1">
-  <img src="images/illustrations/leaf-orange.png" alt="bg-shape" class="img-fluid bg-shape-2">
-  <img src="images/illustrations/dots-group-sm.png" alt="bg-shape" class="img-fluid bg-shape-3">
-  <img src="images/illustrations/leaf-pink-round.png" alt="bg-shape" class="img-fluid bg-shape-4">
-  <img src="images/illustrations/leaf-cyan.png" alt="bg-shape" class="img-fluid bg-shape-5">
-</section>
-<!-- /testimonial -->
+
 
 <!-- client logo slider -->
-<section class="section pb-0">
+<!-- <section class="section pb-0">
   <div class="container">
     <div class="client-logo-slider d-flex align-items-center">
       <a href="contact.html" class="text-center d-block outline-0 p-4"><img class="d-unset img-fluid"
@@ -402,7 +431,7 @@
           src="images/clients-logo/client-logo-5.png" alt="client-logo"></a>
     </div>
   </div>
-</section>
+</section> -->
 <!-- /client logo slider -->
 
 <!-- blog -->
@@ -414,18 +443,19 @@
       </div>
       <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
         <article class="card shadow">
-          <img class="rounded card-img-top" src="images/blog/post-3.jpg" alt="post-thumb">
+          <img class="rounded card-img-top" src="https://global-uploads.webflow.com/6097e0eca1e875de53031ff6/629fecdebd12597c27fd4028_Group%20337%20(1)-p-2000.png" alt="post-thumb">
           <div class="card-body">
-            <h4 class="card-title"><a class="text-dark" href="blog-single.html">Amazon increase income 1.5 Million</a>
+            <h4 class="card-title"><a class="text-dark" href="https://www.patika.dev/success-stories/blockchain-development-from-scratch-in-3-days">Blockchain Development from Scratch in 3 Days
+            </a>
             </h4>
-            <p class="cars-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et
-              dolore magna aliqua.</p>
-            <a href="blog-single.html" class="btn btn-xs btn-primary">Read More</a>
+            <p class="cars-text">I’m a senior law student at Istanbul University. I have been producing music for 6 years. I have been interested in technology since childhood. In this blog post, I will share my experiences with you on becoming a Near Certified Developer.</p>
+            <a href="https://www.patika.dev/success-stories/blockchain-development-from-scratch-in-3-days" class="btn btn-xs btn-primary">Read More</a>
           </div>
         </article>
       </div>
-      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+
+
+      <!-- <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
         <article class="card shadow">
           <img class="rounded card-img-top" src="images/blog/post-4.jpg" alt="post-thumb">
           <div class="card-body">
@@ -438,6 +468,7 @@
           </div>
         </article>
       </div>
+
       <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
         <article class="card shadow">
           <img class="rounded card-img-top" src="images/blog/post-2.jpg" alt="post-thumb">
@@ -451,11 +482,86 @@
           </div>
         </article>
       </div>
+       -->
     </div>
   </div>
 </section>
 <!-- /blog -->
 
-@@include('blocks/footer.htm')
+<!-- contact -->
 
-@@include('footer.htm')
+
+<!-- <section class="section section-on-footer" data-background="images/backgrounds/bg-dots.png">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Contact Info</h2>
+      </div>
+      <div class="col-lg-8 mx-auto">
+        <div class="bg-white rounded text-center p-5 shadow-down">
+          <h4 class="mb-80">Contact Form</h4>
+          <form action="#" class="row">
+            <div class="col-md-6">
+              <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" id="email" name="email" placeholder="Email Address" class="form-control px-0 mb-4" required>
+            </div>
+            <div class="col-12">
+              <textarea name="message" id="message" class="form-control px-0 mb-4"
+                placeholder="Type Message Here" required></textarea>
+            </div>
+            <div class="col-lg-6 col-10 mx-auto">
+              <button class="btn btn-primary w-100">send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- /contact -->
+
+<!-- footer -->
+<footer class="bg-dark footer-section">
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5 class="text-light">Email</h5>
+          <p class="text-white paragraph-lg font-secondary">mervanerenci@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Phone</h5>
+          <p class="text-white paragraph-lg font-secondary">+90 535 073 97 97</p>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-light">Github</h5>
+          <p class="text-white paragraph-lg font-secondary">github.com/mervanerenci</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="border-top text-center border-dark py-5">
+    <p class="mb-0 text-light">Copyright &copy;<script>
+        var CurrentYear = new Date().getFullYear()
+        document.write(CurrentYear)
+      </script> Designed &amp; Developed by <a class="text-white-50" href="Themefisher">Themefisher</a></p>
+  </div> -->
+</footer>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- filter -->
+<script src="plugins/shuffle/shuffle.min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
